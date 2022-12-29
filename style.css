@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Mulish&family=Roboto+Mono&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -85,7 +85,6 @@
 }
 .nav .nav-link a:hover {
     color: rgb(3, 255, 238);
-    font-size: larger;
 }
 .nav.active {
    right: 5%;
@@ -102,11 +101,9 @@
 }
 .mo .nav-link p:hover {
     color: rgb(3, 255, 238);
-    font-size: larger;
 }
 .nav-link p a:hover{
     text-decoration: underline;
-    font-size: large !important;
 }
 .nav-link .more {  
     max-height: 0;
@@ -126,7 +123,7 @@
 }
 #slider {
     width: 100%;
-    height: 35vh;
+    height: 280px;
     margin-bottom: -5px;
     margin-top: 68px;
 }
@@ -141,14 +138,13 @@ article .fa-less-than, article .fa-greater-than {
 article .fa-less-than:hover, article .fa-greater-than:hover {
     opacity: 1;
     color: rgb(3, 255, 238);
-    padding: 16px;
 }
 #left {
-    top: 150px;
+    top: 180px;
     left: 20px;
 }
 #right {
-    top: 150px;
+    top: 180px;
     right: 20px;
 }
 .theme {
@@ -159,7 +155,7 @@ article .fa-less-than:hover, article .fa-greater-than:hover {
 .theme h4 {
     font-size: x-large;
     padding-bottom: 10px;
-    border-bottom: 1px solid brown;
+    border-bottom: 1px solid rgb(226, 96, 96);
 }
 .theme .year {
     padding-top: 10px;
@@ -170,17 +166,21 @@ article .fa-less-than:hover, article .fa-greater-than:hover {
 .theme h3 {
     font-size: larger;
 }
+.reach-us {
+    background-color: rgb(226, 96, 96);
+    padding: 15px 0;
+}
 .live {
-    background-color: rgb(36, 105, 194);
+    border: 2px solid white;
+    margin: 0 10px 10px 10px;
+    align-self: center;
 }
 .live a {
     width: 100%;
     padding: 20px;
     display: flex;
+    
     justify-content: space-between;
-}
-.live a .fa-solid:hover{
-    font-size: larger;
 }
 .live .fa-video {
     color: white;
@@ -192,40 +192,38 @@ article .fa-less-than:hover, article .fa-greater-than:hover {
     margin-left: 20px;
 }
 .live:hover {
-    background-color:rgb(3, 255, 238)
+    background-color: rgb(59, 137, 255) ;
 }
 a {
     text-decoration: none;
 }
 .social {
-    background-color: brown;
     padding: 20px 10px;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 2px solid white;
+    margin: 20px 10px ;
 }
 .fa-facebook:hover {
     color: rgb(1, 67, 248) !important;
-    font-size: 30px;
 }
 .fa-twitter:hover {
     color: rgb(59, 137, 255) !important;
-    font-size: 30px;
 }
 .fa-instagram:hover {
     color: rgb(245, 88, 245)!important;
-    font-size: 30px;
 }
 .fa-whatsapp:hover {
     color: rgb(15, 235, 15)!important;
-    font-size: 30px;
 }
 .social p{
-    font-size: large;
+    font-size: 16px;
 }
 .social .fx {
     color: white;
+    font-size: 24px;
 }
 .social #fx {
     display: flex;
@@ -233,19 +231,24 @@ a {
     gap: 20px;
 }
 .call {
-    background-color: burlywood;
     display: flex;
     justify-content: space-between;
     padding: 15px 25px;
     align-items: center;
-}
-.call p a{
-    font-size: x-large;
+    border: 2px solid white;
+    margin: 0 10px 10px 10px;
+    color: white;
 }
 .call p a:hover {
+    color: rgb(1, 67, 248);
+}
+.call p a{
+    font-size: 16px;
+    color: white;
+}
+a:hover {
     color: rgb(3, 255, 238);
-    transition: .3s ease;
-    padding-left: 5px;
+    transition: all .3s ease-in !important;
 }
 #times {
     background-image: url(images/crowd.jpg);
@@ -258,8 +261,7 @@ a {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
     color: white;
-    font-weight: bold;
-    border: 2px dashed; 
+    font-weight: bold; 
     margin: auto;
     height: 100%;
     text-align: center;
@@ -267,7 +269,6 @@ a {
 #times h4 {
     font-size: xx-large;
     padding: 30px;
-    color: burlywood;
 }
 #times p {
     font-size: 24px;
@@ -283,8 +284,7 @@ a {
 .about h3 {
     text-align: center;
 }
-.about h3:before {
-    color:rgb(226, 96, 96);
+.about h3:before { 
     content: "ABOUT ";
     font-weight: bolder;
 }
@@ -304,20 +304,19 @@ a {
     box-shadow: 5px 5px 15px black;
 }
 .about a:hover {
-    font-size: large;
     color: rgb(3, 255, 238);
 }
 .pastors {
     background-color: rgb(224, 207, 207);
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 .connect {
     display: none;
 }
 .pastors p:nth-child(1) {
     text-align: center;
-    color: brown;
+    color: rgb(226, 96, 96);
     font-size: larger;
     padding-top: 20px;
     font-weight: bolder;
@@ -329,12 +328,12 @@ a {
     margin-left: auto;
     margin-right: auto;
     border-radius: 50px;
-    border: 5px solid brown;
+    border: 5px solid rgb(226, 96, 96);
     box-shadow: 10px 10px 20px black;
 }
 .pastors p:nth-child(2) {
     font-size: larger;
-    color: brown;
+    color: rgb(226, 96, 96);
     text-align: center;
     margin-top: 20px;
 }
@@ -365,29 +364,34 @@ a {
     font-weight: bold;
 }
 .born-again {
-    background-color: brown;
+    background-color: rgb(226, 96, 96);
     color: white;
     padding: 10px;
     text-align: center;
+    
 }
 .born-again p:nth-child(1) {
     padding: 10px;
     font-size: 35px;
     font-weight: bolder;
+    font-family: 'Roboto Mono', monospace;
 }
 .born-again p:nth-child(2) {
     padding: 20px;
     font-weight: 900;
+    font-family: 'Roboto Mono', monospace;
 }
 .born-again p:nth-child(3){
     margin: auto;
     width: 100%;
     line-height: 30px;
+    font-family: 'Roboto Mono', monospace;
 }
 .born-again p:nth-child(4){
     margin: auto;
     width: 50%;
     line-height: 30px;
+    font-family: 'Roboto Mono', monospace;
 }
 footer {
     color: white;
@@ -409,6 +413,7 @@ footer {
 }
 .location {
     text-align: left;
+    font-size: 16px;
 }
 .location .mailto a{
     color: white;
@@ -445,7 +450,7 @@ footer {
 .links a:hover {
     color: rgb(3, 255, 238);
     padding-left: 5px;
-    transition: .3s ease;
+    transition: all .3s ease;
 }
 .days h3 {
     margin: 40px 0 20px 0; 
@@ -457,10 +462,10 @@ footer {
     background-color: rgba(15, 15, 15, 0.938);
     padding: 20px 30px;
     text-align: center;
-    font-size: medium;
 }
 #rights {
     margin: 10px 0 0px 0;
+    font-size: 12px;
 }
 #rights p {
     margin-top: 10px;
@@ -469,8 +474,9 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    margin: 20px 0 0 0;
+    gap: 10px;
+    margin: 10px 0 0 0;
+    font-size: 12px;
 }
 #social a {
     color: white;
@@ -483,11 +489,10 @@ footer {
     position: fixed;
     top: 90%;
     right: 20px;
+    scroll-behavior: smooth;
 }
 .fa-arrow-up:hover {
     color: rgb(3, 255, 238);
-    border-radius: 0px;
-    padding: 12px;
 }
 @media (min-width: 769px){
     .hamburger {
@@ -521,17 +526,19 @@ footer {
     }
     .nav-link .more {
         margin-top: 25px; 
-        background-color: black; 
-          
+        background-color: black;
     }
     #slider {
-        height: 85vh;
+        height: 600px;
+        
     }
     #left {
-        top: 300px;
+        top: 320px;
+        left: 40px;
     }
     #right {
-        top: 300px;
+        top: 320px;
+        right: 40px;
     }
     .theme {
         padding: 50px;
@@ -546,18 +553,58 @@ footer {
     .theme h3 {
         font-size: x-large;
     }
+    .reach-us {
+        display: flex;
+        padding:  15px;
+        justify-content: space-around;
+        
+    }
+    .live {
+        border: 2px solid white;
+        margin: 10px;
+        padding: 10px;
+        width: 20%;
+    }
+    .social {
+        justify-content: space-around;
+        padding: 5px 10px;
+        width: 50%;
+        margin:10px 10px ;
+    }
+    .social .fx {
+        font-size: 16px;
+        display: flex;
+        width: 0px !important;
+    }
+    .social #fx a {
+        justify-content: space-between;
+        gap: 0px;
+        width: 0px;
+    }
+    .social #fx .fx {
+        gap:0;
+    }
+    .call {
+        padding: 15px 25px;
+        margin: 10px;
+        width: 25%;
+        font-size: 10px;
+        justify-content: space-between;
+    }
     .social p {
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bold;
+    }
+    .social .fx {
+        font-size: 28px;
     }
     .social #fx {
         display: flex;
         justify-content: space-around;
         gap: 80px;
-        font-size: larger;
     }
-    .social .fx:hover {
-        font-size: 35px;
+    .call p a{
+        font-size: 20px;
     }
     #times {
         height: 350px;
@@ -627,7 +674,9 @@ footer {
     }
     .connect .pastors-socials {
         display: flex;
-        gap: 0px;
+        margin: auto;
+        width: 35%;
+        font-size: 12px;
     }
     .connect p:first-child {
         font-size: 40px;
@@ -642,14 +691,10 @@ footer {
         color: white;
         border: 1px solid white;
     }
-    .pastors-socials .fg:hover{
-        font-size: 28px;
-    }
-    .conn a {
+    #con a{
         box-shadow: 5px 5px 15px black;
     }
-    .conn a:hover {
-        font-size: large;
+    #con a:hover {
         color: rgb(3, 255, 238);
     }
     .location #mailt {

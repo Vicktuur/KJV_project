@@ -16,8 +16,8 @@ let images = [
     "images/IMG-20221023-WA0001.jpg",
     "images/IMG_8455.jpeg",
     "images/IMG_20221218_102723_939.jpg",
-    "images/IMG_8608.JPEG",
-    "images/FB_IMG_1666869596478.jpg"
+    "images/IMG20210321094742.jpg",
+    "images/IMG_8546.JPEG"
 ];
  
 let num = 0;
