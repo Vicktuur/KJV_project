@@ -1,0 +1,53 @@
+.giving-intro {
+    padding-bottom: 100vh;
+}
+.giving-text{
+    background-color: rgba(0,0,0, 0.6);
+    position: absolute;
+    top: 0px;
+    height: 100vh;
+    width: 100%;
+}
+.giving-intro p {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Berkshire Swash', cursive;
+    margin-top: 290px;
+}
+#gallery-image {
+    position: fixed;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
+.gallery {
+   text-align: center;
+   background-color: rgb(245, 231, 231);
+   padding-top: 50px;
+   padding-bottom: 30px;
+}
+.gallery h3 {
+    font-size: 40px;margin-bottom: 40px;
+    font-weight: normal;
+}
+.gallery .more {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    background-color: rgb(226, 96, 96);
+    width: 40%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px black;
+}
+.gallery-pics {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+}
