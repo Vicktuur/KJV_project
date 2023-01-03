@@ -46,6 +46,12 @@
     border-radius: 20px;
     box-shadow: 5px 5px 15px black;
 }
+.gallery-box .more a {
+    color: white;
+}
+.gallery-box .more p a:hover {
+    color: rgb(3, 255, 238);
+}
 .gallery-pics {
     width: 300px;
     height: 200px;
