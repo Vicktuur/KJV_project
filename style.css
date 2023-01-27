@@ -150,7 +150,6 @@ article .fa-less-than:hover, article .fa-greater-than:hover {
 .theme {
     padding: 20px;
     text-align: center;
-    background-color: rgb(245, 231, 231);
 }
 .theme h4 {
     font-size: x-large;
@@ -163,8 +162,14 @@ article .fa-less-than:hover, article .fa-greater-than:hover {
     font-style: italic;
     font-size: large;
 }
-.theme h3 {
-    font-size: larger;
+.scroll-bar {
+    padding: 15px 0;
+    background-color: rgb(245, 231, 231);
+}
+.scroll {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bolder;
 }
 .reach-us {
     background-color: rgb(226, 96, 96);
@@ -307,7 +312,6 @@ a:hover {
     color: rgb(3, 255, 238);
 }
 .pastors {
-    background-color: rgb(224, 207, 207);
     padding-top: 35px;
     padding-bottom: 35px;
 }
