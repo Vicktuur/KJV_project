@@ -7,7 +7,7 @@ let image = [
 
 let pstpics = document.getElementById("pst-pics");
 
-setInterval(function() {
+setInterval( () => {
     let random = Math.floor(Math.random() * 4);
     pstpics.src = image[random]
 }, 7000);

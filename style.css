@@ -168,11 +168,11 @@ article .fa-less-than:hover, article .fa-greater-than:hover {
 }
 .scroll {
   font-size: 20px;
-  font-style: italic;
+  font-style: oblique;
   font-weight: bolder;
 }
 .reach-us {
-    background-color: rgb(226, 96, 96);
+    background-color: rgb(93, 140, 241);
     padding: 15px 0;
 }
 .live {
@@ -197,7 +197,7 @@ article .fa-less-than:hover, article .fa-greater-than:hover {
     margin-left: 20px;
 }
 .live:hover {
-    background-color: rgb(59, 137, 255) ;
+    background-color: rgb(24, 91, 236);
 }
 a {
     text-decoration: none;
@@ -288,6 +288,7 @@ a:hover {
 }
 .about h3 {
     text-align: center;
+    font-weight: bold;
 }
 .about h3:before { 
     content: "ABOUT ";
@@ -300,9 +301,9 @@ a:hover {
 }
 .about a {
     border: 1px solid;
-    background-color: rgb(226, 96, 96);
+    background-color: rgb(93, 140, 241);
     padding: 15px;
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
     font-weight: bolder;
     color: white;
@@ -320,8 +321,8 @@ a:hover {
 }
 .pastors p:nth-child(1) {
     text-align: center;
-    color: rgb(226, 96, 96);
-    font-size: larger;
+    
+    font-size: x-large;
     padding-top: 20px;
     font-weight: bolder;
 }
@@ -332,7 +333,7 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     border-radius: 50px;
-    border: 5px solid rgb(226, 96, 96);
+    border: 5px solid rgba(56, 52, 52, 0.938);
     box-shadow: 10px 10px 20px black;
 }
 .pastors p:nth-child(2) {
@@ -353,7 +354,7 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    background-color: rgb(226, 96, 96);
+    background-color: rgb(93, 140, 241);
     padding: 15px;
     border-radius: 10px;
     border: none;
@@ -368,7 +369,7 @@ a:hover {
     font-weight: bold;
 }
 .born-again {
-    background-color: rgb(226, 96, 96);
+    background-color: rgb(93, 140, 241);
     color: white;
     padding: 10px;
     text-align: center;
@@ -486,7 +487,7 @@ footer {
     color: white;
 }
 .fa-arrow-up {
-    background-color: rgb(226, 96, 96, 0.8);
+    background-color: rgb(93, 140, 241);
     padding: 10px;
     border-radius: 5px;
     color: white;
@@ -496,7 +497,8 @@ footer {
     scroll-behavior: smooth;
 }
 .fa-arrow-up:hover {
-    color: rgb(3, 255, 238);
+    background-color: rgb(24, 91, 236);
+    
 }
 @media (min-width: 769px){
     .hamburger {
@@ -634,6 +636,15 @@ footer {
         font-size: larger;
         width: 70%;
         padding: 40px;
+    }
+    .about a {
+        border: 1px solid;
+        background-color: rgb(93, 140, 241);
+        padding: 15px 80px;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        box-shadow: 5px 5px 15px black;
     }
     .born-again {
         padding: 60px;

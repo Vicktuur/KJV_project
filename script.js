@@ -40,7 +40,7 @@ function next() {
     slider.src = images[num];
 }
 
-setInterval(function() {
+setInterval( () => {
     let random = Math.floor(Math.random() * 5);
     slider.src = images[random]
 }, 10000);
