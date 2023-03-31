@@ -291,7 +291,7 @@ a:hover {
     font-weight: bold;
 }
 .about h3:before { 
-    content: "ABOUT ";
+    content: "";
     font-weight: bolder;
 }
 .about p {

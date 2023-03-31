@@ -1,0 +1,32 @@
+
+.about {
+    text-align: center;
+    padding: 40px;
+    padding-bottom: 60px;
+    background-color: rgb(245, 231, 231);
+}
+.about h3 {
+    margin-top: 68px;
+    text-align: center;
+    font-weight: bold;
+}
+.about p {
+    margin: 30px 0;
+    text-align: left;
+    font-size: larger;
+}
+@media (min-width: 769px){
+    .about {
+        padding: 60px;
+    }
+    .about h3 {
+        font-size: 30px;
+    }
+    .about p {
+        margin: auto;
+        text-align: center;
+        font-size: larger;
+        width: 70%;
+        padding: 40px;
+    }
+}
