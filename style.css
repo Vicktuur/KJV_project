@@ -108,11 +108,11 @@
 .nav-link .more {  
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.5s ease;
+    transition: max-height 1s ease-in-out;
 }
 .mo.active .more{
     max-height: 300px;
-    animation: fade 1s ease-in-out;
+    animation: fade 1.5s ease;
 }
 .nav-link .more p {
     font-size: large;
@@ -120,6 +120,9 @@
 }
 .mo.active .fa-angle-down {
     transform: rotate(180deg);
+}
+.fa-angle-down {
+    transition: transform .5s ease-in;   
 }
 #slider {
     width: 100%;
@@ -533,6 +536,7 @@ footer {
     .nav-link .more {
         margin-top: 25px; 
         background-color: black;
+        border-radius: 10px;
     }
     #slider {
         height: 600px;
